@@ -133,7 +133,7 @@
     </Compile>
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Journal.cs" />
-    <Compile Include="Models\OrderContext.cs" />
+    <Compile Include="Models\LibContext.cs" />
     <Compile Include="Models\Purchase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

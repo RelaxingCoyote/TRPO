@@ -50,5 +50,21 @@ namespace LibraryApp.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void LibView()
+        {
+            // Arrange
+            // Подготовка среды для теста
+            HomeController controller = new HomeController();
+
+            // Act
+            // Тестирование кода
+            ViewResult result = controller.Contact() as ViewResult;
+
+            // Assert
+            // Сверяем результат
+            Assert.IsNotNull(result);
+        }
     }
 }

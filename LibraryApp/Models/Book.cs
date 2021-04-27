@@ -14,5 +14,9 @@ namespace LibraryApp.Models
         public string Name { get; set; }
         // автор книги
         public string Author { get; set; }
+        // издатель
+        public string Publisher { get; set; }
+        // дата издания книги
+        public DateTime PubDate { get; set; }
     }
 }

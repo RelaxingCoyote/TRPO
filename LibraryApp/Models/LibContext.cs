@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace LibraryApp.Models
 {
-    public class OrderContext
+    public class LibContext : DbContext
     {
         public DbSet<Book> Books { get; set; }
         public DbSet<Purchase> Purchases { get; set; }

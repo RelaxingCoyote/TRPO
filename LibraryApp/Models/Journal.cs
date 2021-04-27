@@ -13,5 +13,9 @@ namespace LibraryApp.Models
         public string Name { get; set; }
         // издатель журнала
         public string Publisher { get; set; }
+        // выпуск
+        public string Issue { get; set; }
+        // дата
+        public DateTime PubDate { get; set; }
     }
 }
