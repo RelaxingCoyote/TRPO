@@ -1,5 +1,9 @@
 language: csharp
 solution: LibraryApp.sln
+mono: none
+dotnet: 2.1.502
+script:
+ - dotnet restore
 <<<<<<< HEAD
 
 notifications:
