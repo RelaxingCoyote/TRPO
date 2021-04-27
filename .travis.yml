@@ -1,6 +1,5 @@
 language: csharp
 solution: LibraryApp.sln
-<<<<<<< HEAD
 
 notifications:
   email:
@@ -9,5 +8,4 @@ notifications:
       - markoosha98@gmail.com
     on_success: changes
     on_failure: always
-=======
->>>>>>> 0573026b0eece5361aed5f285b4751b15b8327c6
+
