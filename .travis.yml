@@ -1,2 +1,10 @@
 language: csharp
 solution: LibraryApp.sln
+
+notifications:
+  email:
+    recipients:
+      - mah9@tpu.ru
+      - markoosha98@gmail.com
+    on_success: changes
+    on_failure: always
