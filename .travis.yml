@@ -7,7 +7,7 @@ before_install:
 script:
   - dotnet restore
   - msbuild
-  - dotnet test ..LibraryApp.Tests/Controllers/HomeControllerTest.cs
+  - dotnet test LibraryApp.Tests/Controllers/HomeControllerTest.cs
 <<<<<<< HEAD
 
 notifications:
