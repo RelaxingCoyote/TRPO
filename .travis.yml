@@ -1,11 +1,13 @@
 language: csharp
 solution: LibraryApp.sln
-install:
-  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/master/kvminstall.sh | sh && source ~/.k/kvm/kvm.sh
-  - kvm upgrade
-  - kpm restore --no-cache
+mono: latest
+dotnet: 3.1.200
+before_install:
+  - cd src
 script:
-  - k test -parallel none
+  - dotnet restore
+  - msbuild
+  - dotnet test ..LibraryApp.Tests/Controllers/HomeControllerTest.cs
 <<<<<<< HEAD
 
 notifications:
