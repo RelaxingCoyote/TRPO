@@ -60,7 +60,7 @@ namespace LibraryApp.Tests.Controllers
 
             // Act
             // Тестирование кода
-            ViewResult result = controller.Contact() as ViewResult;
+            ViewResult result = controller.LibView() as ViewResult;
 
             // Assert
             // Сверяем результат

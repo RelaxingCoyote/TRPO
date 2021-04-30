@@ -37,5 +37,11 @@ namespace LibraryApp.Controllers
 
             return View();
         }
+
+        public ActionResult LibView()
+        {
+            return null;
+            //return View();
+        }
     }
 }
